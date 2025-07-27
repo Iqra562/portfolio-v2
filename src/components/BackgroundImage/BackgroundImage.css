@@ -1,0 +1,21 @@
+@keyframes  animate-icon{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 100%;
+    }
+
+}
+
+.animated-icons{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #07c02f;
+      filter:drop-shadow(0 -2px 5px #07c02f ) ;
+      transform: rotate(45deg);
+      left: -5px;
+      animation: animate-icon var(--duration, 30s) linear infinite  var(--direction, normal);
+
+}
