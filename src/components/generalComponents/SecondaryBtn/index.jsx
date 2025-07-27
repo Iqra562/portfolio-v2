@@ -1,6 +1,6 @@
 import React from "react";
 
-const SecondaryBtn = ({
+export function SecondaryBtn ({
   text,
   icon: Icon,
   iconPosition = "left",
@@ -10,11 +10,11 @@ const SecondaryBtn = ({
   onClick,
   animated = false,
   ...rest
-}) => {
+})  {
   return (
     <button
       onClick={onClick}
-      className={`w-full flex justify-center uppercase items-center bg-secondary py-4 font-bold px-5 rounded-full gap-2 text-white hover:bg-primaryDark transition-all duration-300 ${className}`}
+      className={` flex justify-center uppercase items-center bg-secondary py-4 font-bold px-7 rounded-full gap-2 text-white hover:bg-primaryDark transition-all duration-300 ${className}`}
       {...rest}
     >
       {iconPosition === "left" &&
@@ -27,4 +27,3 @@ const SecondaryBtn = ({
   );
 };
 
-export default SecondaryBtn;

@@ -14,6 +14,15 @@ export default {
       borderColor: {
         "night-black": "#3b3b3b",
       },
+        keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
+      animation: {
+        marquee: 'marquee 12s linear infinite',
+      },
     },
   },
   plugins: [],

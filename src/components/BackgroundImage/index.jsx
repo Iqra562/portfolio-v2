@@ -20,6 +20,15 @@ function BackgroundImage() {
                   <div className="animated-icons"></div>
 
      </div>
+          <div className="border border-dotted border-night-black w-[2px] h-screen relative">
+            <div   style={{
+    "--duration": "30s",
+    "--direction": "reverse"
+  }} className="animated-icons"></div>
+
+     </div>
+
+     
      <div className="border border-dotted border-night-black w-[2px] h-screen"></div>
     </div>
   )
