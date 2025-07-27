@@ -2,7 +2,7 @@ import './BackgroundImage.css'
 function BackgroundImage() {
  
   return (
-    <div className="w-full h-screen bg-[#18191b]  flex justify-between  fix top-0 left-0 overflow-y-hidden">
+    <div className="w-full h-screen bg-[#18191b]  flex justify-between  fixed top-0 left-0 overflow-y-hidden -z-10">
      <div className="border border-dotted border-night-black w-[2px] h-screen relative">
      </div>
      <div className="border border-dotted border-night-black w-[2px] h-screen relative">
