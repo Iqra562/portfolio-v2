@@ -10,7 +10,7 @@ return(
 
    <div className="bg-primaryDark   overflow-hidden rounded-2xl w-full ">
 
-    <div className="relative  bg-green-50 ">
+    <div className="relative   ">
 
     <div className="absolute bg-[#18191A] h-12 w-36 z-2 p-2 right-0"></div>
     <div className="absolute bg-[#18191A] p-1 h-12 z-2 right-[7.2rem] -top-5 w-20 rotate-45"></div>

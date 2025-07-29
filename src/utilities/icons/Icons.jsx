@@ -11,7 +11,7 @@ import { SiMui } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { FaWordpress } from "react-icons/fa";
-
+import { IoHomeOutline } from "react-icons/io5";
 
 
 export const icons = {
@@ -27,5 +27,6 @@ export const icons = {
    mui:SiMui,
    nodejs:FaNodeJs,
    mongoose:SiMongodb,
-   wordpress:FaWordpress
+   wordpress:FaWordpress,
+   home:IoHomeOutline
 };
