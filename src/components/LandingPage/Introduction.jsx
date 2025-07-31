@@ -7,10 +7,10 @@ import { IconsMarquee } from "./components";
 function Introduction(){
  return(
    <div className="bg-primaryDark p-4 rounded-2xl w-full">
-      <button className="border border-night-black py-2.5 px-6 rounded-full flex justify-center items-center space-x-2 hover:bg-neutral-900 hover:border-neutral-900 transition-all duration-300   animate-scaleOnce" > <IoHomeOutline className="text-secondary text-sm"/> <span className="uppercase text-primary text-sm font-normal ">Intro</span> </button>
+      <button className="border border-night-black py-2.5 px-6 rounded-full flex justify-center items-center space-x-2 hover:bg-neutral-900 hover:border-neutral-900 transition-all duration-300   animate-scaleOnce active:animate-popUp  " > <IoHomeOutline className="text-secondary text-sm "/> <span className="uppercase text-primary text-sm font-normal ">Intro</span> </button>
       <div className="px-8 py-10 space-y-8">
 
-   <div className="flex space-x-2">
+   <div className="flex flex-col md:flex-row space-x-2">
 <p className="text-white uppercase text-4xl font-semibold">I craft the </p>
 <p className="text-secondary uppercase text-4xl font-semibold">web’s visual experience </p>
 

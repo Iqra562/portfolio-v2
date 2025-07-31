@@ -5,3 +5,17 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  width: 0px; /* Set a width for the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #191923; /* Set the background color of the thumb */
+  border-radius: 6px; /* Set border-radius to round the corners of the thumb */
+}
+
+/* Optional: You can also style the track (the area the thumb moves along) */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Set the background color of the track */
+}

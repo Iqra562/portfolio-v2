@@ -9,7 +9,7 @@ import { CenterContent } from './Pages/CenterContent'
 function App() {
  
   return (
-  <div className='w-full h-screen flex'>
+  <div className='w-full  xl:h-screen flex overflow-hidden 2xl:h-full 2xl:overflow-y-scroll'>
     <BackgroundImage/>
    
   

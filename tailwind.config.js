@@ -20,14 +20,21 @@ export default {
           '100%': { transform: 'translateX(-50%)' },
         },
         scaleOnce: {
-          '0%': { transform: 'scale(0.8)' },
+          '0%': { transform: 'scale(0.9)' },
           '50%': { transform: 'scale(1.1)' },
           '100%': { transform: 'scale(1)' },
+        },
+        popUp: {
+          '0%': { transform: 'scale(0.95)' }, 
+          // '40%': { transform: 'scale(1.02)' },
+          '100%': { transform: 'scale(1)' },
+          
         },
       },
       animation: {
         marquee: 'marquee 12s linear infinite',
          scaleOnce: 'scaleOnce 0.2s ease-out forwards',
+         popUp: 'popUp  200s ease-out',
       },
     },
   },
