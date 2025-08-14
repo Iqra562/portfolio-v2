@@ -10,9 +10,9 @@ function Section() {
       <Heading preFix='Work ' postFix='Experience'/>
            
             
-           <div className="pt-0 md:pt-5">
-             <div className="flex flex-col md:flex-row">
-                <div className=" md:w-[30%]   flex items-center space-x-2 md:space-x-0  md:block">
+           <div className="pt-0 md:pt-5 space-y-5 md:space-y-0">
+             <div className="flex flex-col md:flex-row gap-y-4 ">
+                <div className=" md:w-[30%]   flex flex-col itemscenter space-x2 md:space-x-0  md:block">
                   <h6 className="text-white text-lg">Silicon Systems</h6>
                   <span className="text-primary">Nov 2024 - March 2025</span>
                 </div>
@@ -27,7 +27,7 @@ function Section() {
 </div>
                 </div>
              </div>
-             <div className="flex flex-col md:flex-row">
+             <div className="flex flex-col md:flex-row gap-y-4">
                 <div className=" md:w-[30%]   flex items-center space-x-2 md:space-x-0  md:block">
                   <h6 className="text-white text-lg">Apptalyst</h6>
                   <span className="text-primary">April 2025 - Present</span>
@@ -49,10 +49,10 @@ function Section() {
       <Heading preFix='My ' postFix='Education'/>
            
             
-           <div className="pt-0 md:pt-5">
+           <div className="pt-0 md:pt-5 space-y-5 md:space-y-0">
              
-               <div className="flex flex-col md:flex-row">
-                <div className=" md:w-[30%]   flex items-center space-x-2 md:space-x-0  md:block">
+               <div className="flex flex-col gap-y-4 md:flex-row">
+                <div className=" md:w-[30%]   flex flex-col  md:space-x-0  md:block">
                   <h6 className="text-white text-lg">Aptech Learning</h6>
                   <span className="text-primary">2022-2024</span>
                 </div>
@@ -67,9 +67,9 @@ function Section() {
 </div>
                 </div>
              </div>
-               <div className="flex flex-col md:flex-row">
-                <div className=" md:w-[30%]   flex items-center space-x-2 md:space-x-0  md:block">
-                  <h6 className="text-white text-lg">Aptech Learning</h6>
+               <div className="flex flex-col gap-y-4 md:flex-row">
+                <div className=" md:w-[30%]   flex flex-col    md:block">
+                  <h6 className="text-white text-lg">Government Degree Girls College</h6>
                   <span className="text-primary">2024-continued</span>
                 </div>
                 <div className="relative  border-l-[1px] border-night-black  pb-4 md:pb-8  " >
