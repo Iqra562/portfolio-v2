@@ -35,9 +35,9 @@ function DesktopNav(){
       });
     },
     {
-      root: null,        
-      threshold: 0,
-rootMargin: "0px 0px -90% 0px"
+      root: null,  //viewport       
+      threshold: 0, //elements visibility
+rootMargin: "0px 0px -90% 0px" //early trigger 
 
     }
   );
