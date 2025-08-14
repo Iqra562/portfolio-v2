@@ -13,13 +13,23 @@ function Section() {
             
            <div className="pt-5 inline-grid grid-cols-2 grid-rows-2 gap-x-8 " >
             <div className="  ">
+<a  href="https://mail.google.com/mail/?view=cm&fs=1&to=iqra44938@gmail.com" 
+  target="_blank"
+  rel="noopener noreferrer">
+
               <SiGmail className=" text-5xl md:text-7xl text-primary "/>
+              </a>
             </div>
             <div className="">
+              <a href="https://www.linkedin.com/in/iqra-khaliq/" target="_blank" rel="noopener noreferrer">
+
               <IoLogoLinkedin className=" text-5xl md:text-7xl text-primary"/>
+              </a>
             </div>
             <div className="flex  ">
+              <a href="https://github.com/Iqra562" target="_blank" rel="noopener noreferrer">
               <BsGithub className=" text-5xl md:text-7xl text-primary"/>
+              </a>
             </div>
            
            </div>
