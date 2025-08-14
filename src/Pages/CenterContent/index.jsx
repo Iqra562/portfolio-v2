@@ -1,24 +1,33 @@
-import {Introduction} from "../../components"
+import {Introduction,About, SkillsSection, Resume, Projects, Contact} from "../../components"
 
 function CenterContent(){
     return(
-   <div className="w-full xl:overflow-y-scroll xl:h-screen 2xl:h-full" >
-    <div className="w-full">
+   <div className="w-full xl:overflow-y-scroll xl:h-screen ultra:h-full pt-4 space-y-7 py-10" >
+    <div className="w-full" id="home">
 
     <Introduction/>
-    </div>
-    <div className="w-full">
+    </div> 
+    <div className="w-full" id="about">
 
-    <Introduction/>
+    <About/>
     </div>
-    <div className="w-full">
+    <div className="w-full" id="skills">
 
-    <Introduction/>
+    <SkillsSection/>
     </div>
-        <div className="w-full">
+    <div className="w-full" id="resume">
 
-        <Introduction/>
-        </div>
+    <Resume/>
+    </div>
+    <div className="w-full" id="projects">
+
+    <Projects/> 
+    </div>
+    <div className="w-full" id="contact">
+
+    <Contact/>
+    </div>
+   
    </div>
     )
 }

@@ -1,5 +1,6 @@
 import {icons} from '../../utilities/icons/Icons'
 import {SecondaryBtn} from '../generalComponents'
+
 function ProfileLeftSection(){
     const GitHubIcon = icons.github;
     const LinkedinIcon = icons.linkedin;
@@ -12,8 +13,8 @@ return(
 
     <div className="relative   ">
 
-    <div className="absolute bg-[#18191A] h-12 w-36 z-2 p-2 right-0"></div>
-    <div className="absolute bg-[#18191A] p-1 h-12 z-2 right-[7.2rem] -top-5 w-20 rotate-45"></div>
+    <div className="absolute bg-[#18191A] h-12 w-28 z-2 p-2 right-0"></div>
+    <div className="absolute bg-[#18191A] p-1 h-12 z-2 right-[5.1rem] -top-5 w-20 rotate-45"></div>
     </div>
  <div className=" pt-16 px-6">
     <div className="flex flex-col justify-center items-center ">
@@ -51,7 +52,6 @@ return(
     <div className='py-6'>
         <SecondaryBtn className='w-full' text="download cv" iconPosition='right' customIcon={<DownlaodIcon className='text-white text-xl animate-bounce ' /> }/>
     </div>
-
  </div>
    </div>
    </div>

@@ -8,14 +8,14 @@ function Layout() {
         <div className="flex flex-row justify-start items-start w-full ">
 
 
-        <div className="flex flex-col items-center  xl:flex-row  xl:gap-8    flex-grow   h-screen overflow-y-scroll xl:overflow-hidden lg:pl-24 xl:pl-0 2xl:pl-24  2xl:flex-col 2xl:overflow-y-scroll">
-         <div className="w-full lg:w-[70%] xl:w-[22%]  flex flex-col justify-center xl:mr-14 2xl:mr-0  mt-7 lg:mt-0 px-3 xl:px-0 2xl:w-[50%] ">
+        <div className="flex flex-col items-center  xl:flex-row  xl:gap-8    flex-grow   h-screen overflow-y-scroll xl:overflow-hidden lg:pl-24 xl:pl-0 ultra:pl-24  ultra:flex-col ultra:overflow-y-scroll">
+         <div className="w-full lg:w-[80%] xl:w-[23%]  flex flex-col justify-center xl:mr-14  2xl:mr-14  ultra:mr-0 mt-7 lg:mt-0 px-3 lg:px-0 ultra:w-[50%]  lg:pt-6 xl:pt-0 ultra:pt-6 ">
 
           <ProfileLeftSection/>
          </div>
-           <div className="w-full lg:w-[70%] xl:w-[60%] 2xl:w-[50%]   pt-7 px-3    xl:px-7  2xl:px-0 ">
+           <div className="w-full lg:w-[80%] xl:w-[69%] ultra:w-[50%] px-3 lg:px-0 xl:px-7  ultra:px-0 ">
 
-          <CenterContent/>
+          <CenterContent/>  
            </div>
           
            

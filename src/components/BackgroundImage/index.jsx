@@ -16,7 +16,7 @@ function BackgroundImage() {
   }} className="animated-icons"></div>
 
      </div>
-     <div style={{ "--duration": "30s" }} className="border border-dotted border-night-black w-[2px] h-screen relative">
+     <div style={{ "--duration": "30s" }} className="border border-dotted border-night-black w-[2px] h-screen relative hidden md:block">
                   <div className="animated-icons"></div>
 
      </div>

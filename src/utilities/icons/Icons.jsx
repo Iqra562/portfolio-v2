@@ -12,6 +12,12 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { FaWordpress } from "react-icons/fa";
 import { IoHomeOutline } from "react-icons/io5";
+import { IoIosDoneAll } from "react-icons/io";
+import { FaUserCircle } from "react-icons/fa";
+import { FaGraduationCap } from "react-icons/fa";
+import { SiReaddotcv } from "react-icons/si";
+import { FaDiagramProject } from "react-icons/fa6";
+import { LuMail } from "react-icons/lu";
 
 
 export const icons = {
@@ -28,5 +34,11 @@ export const icons = {
    nodejs:FaNodeJs,
    mongoose:SiMongodb,
    wordpress:FaWordpress,
-   home:IoHomeOutline
+   home:IoHomeOutline,
+   done:IoIosDoneAll,
+   user:FaUserCircle,
+   skills:FaGraduationCap,
+   resume:SiReaddotcv,
+   project :FaDiagramProject,
+   mail:LuMail
 };
