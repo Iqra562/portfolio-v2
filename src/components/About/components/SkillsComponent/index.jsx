@@ -15,14 +15,16 @@ export const logos = [HTML, CSS,JS,React,MUI,Node,MongoDb,Wordpress];
 
 export const SkillsComponent = () => {
   const skills = [
-    {name:'HTML', expertise:"89%"},
-    {name:'CSS', expertise:"89%"},
-    {name:'javascript', expertise:"89%"},
-    {name:'react js', expertise:"89%"},
-    {name:'redux', expertise:"89%"},
-    {name:'material UI', expertise:"89%"},
-    {name:'API Integration', expertise:"89%"},
-    {name:'tailwind css', expertise:"89%"},
+    {name:'HTML'},
+    {name:'CSS'},
+    {name:'tailwind CSS'},
+    {name:'Material UI'},
+    {name:'javascript'},
+    {name:'react js'},
+    {name:'redux'},
+    {name:'Node JS'},
+    {name:'Wordpress'},
+    {name:'API Integration'},
   ]
   return (
     <div className='flex gap-x-4 gap-y-8 flex-wrap'>

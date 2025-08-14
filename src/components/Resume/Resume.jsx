@@ -14,10 +14,7 @@ function Resume(){
       <TitleButton icon={Resume} title='Resume'/>
       <div className="">
     <Section/>
-    <Section/>
-    <Section/>
-    <Section/>
-    <Section/>
+ 
       </div>
       </div>
  )

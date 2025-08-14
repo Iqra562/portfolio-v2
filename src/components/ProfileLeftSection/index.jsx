@@ -1,11 +1,12 @@
 import {icons} from '../../utilities/icons/Icons'
 import {SecondaryBtn} from '../generalComponents'
-
+import { TypewriterEffect } from './components/TypewriterEffect';
+import cv from '../../assets/docs/Resume-Iqra.pdf'
 function ProfileLeftSection(){
     const GitHubIcon = icons.github;
     const LinkedinIcon = icons.linkedin;
     const DownlaodIcon = icons.download; 
-
+ 
 return(
 <div className="w-full">
 
@@ -23,13 +24,14 @@ return(
          <img src='' alt="" className='w-full'   style={{
               width: "100%",
               height: "100%",
-              objectFit: "cover", // Ensure the image covers the entire space
+              objectFit: "cover", 
               objectPosition: "left center",
             //   borderRadius: "50%",
             }}/>
     </div>
     <h1 className="text-center text-white font-bold text-lg ">IQRA</h1>
-     <h2 className="text-secondary font-bold">Frontend Developer</h2>
+     {/* <h2 className="text-secondary font-bold">Frontend Developer</h2> */}
+     <TypewriterEffect/>
     <hr  className="border border-night-black w-full"/>
     </div>
     <div className="pt-1 space-y-3">
@@ -45,12 +47,22 @@ return(
     <div className="bg-[#333] rounded-lg py-4 px-10 mt-2">
         <p className="text-white font-semibold text-sm">Social Links!</p>
         <div className='flex space-x-10 pt-5'>
-                 <GitHubIcon className="text-3xl text-white" />
-                 <LinkedinIcon className="text-3xl text-white" />
+<a href="https://github.com/Iqra562" target="_blank" rel="noopener noreferrer">
+  <GitHubIcon className="text-3xl text-white" />
+</a>             
+<a href="https://www.linkedin.com/in/iqra-khaliq/" target="_blank" rel="noopener noreferrer">
+
+    <LinkedinIcon className="text-3xl text-white" />
+    </a>             
+
         </div>
     </div>
     <div className='py-6'>
-        <SecondaryBtn className='w-full' text="download cv" iconPosition='right' customIcon={<DownlaodIcon className='text-white text-xl animate-bounce ' /> }/>
+
+<a href={cv} download='Resume-Iqra'>
+            
+        <SecondaryBtn className='w-full' text="Resume" iconPosition='right' customIcon={<DownlaodIcon className='text-white text-xl animate-bounce ' /> }/>
+        </a>
     </div>
  </div>
    </div>

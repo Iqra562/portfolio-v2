@@ -8,7 +8,7 @@ function AboutSection() {
       <Heading preFix='About ' postFix='Me'/>
            
             <p className="text-primary text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quisquam sint, iure voluptate ea porro at atque, veniam debitis deleniti asperiores amet adipisci nostrum. Dolore optio sapiente consectetur harum numquam.
+                A passionate frontend developer with expertise in React, JavaScript, and modern web development, who loves transforming ideas into interactive, pixel-perfect experiences that users love. Dedicated to building responsive, accessible, and high-performance applications through clean code and thoughtful UI/UX design.    
             </p>
              <div>
                 <SkillsComponent/>

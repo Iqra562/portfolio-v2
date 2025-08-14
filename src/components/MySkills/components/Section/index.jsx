@@ -15,9 +15,7 @@ function Section() {
       <Heading preFix='My ' postFix='Expertise'/>
            
             <p className="text-primary text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quisquam sint, iure voluptate ea porro at atque, veniam debitis deleniti asperiores amet adipisci nostrum. Dolore optio sapiente consectetur harum numquam.
-            </p>
-            
+Experienced Frontend Developer specializing in React.js, turning designs into intuitive and pixel-perfect interfaces.</p>            
            <div className="pt-5">
 
    <SkillsCarousal/>

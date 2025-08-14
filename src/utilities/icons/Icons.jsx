@@ -18,6 +18,9 @@ import { FaGraduationCap } from "react-icons/fa";
 import { SiReaddotcv } from "react-icons/si";
 import { FaDiagramProject } from "react-icons/fa6";
 import { LuMail } from "react-icons/lu";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiRedux } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
 
 
 export const icons = {
@@ -34,11 +37,14 @@ export const icons = {
    nodejs:FaNodeJs,
    mongoose:SiMongodb,
    wordpress:FaWordpress,
+   tailwind:RiTailwindCssFill,
+   redux:SiRedux,
    home:IoHomeOutline,
    done:IoIosDoneAll,
    user:FaUserCircle,
    skills:FaGraduationCap,
    resume:SiReaddotcv,
    project :FaDiagramProject,
-   mail:LuMail
+   mail:LuMail,
+   git:FaGitAlt
 };

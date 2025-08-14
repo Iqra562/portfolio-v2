@@ -4,14 +4,16 @@ import {icons} from '../../../../utilities/icons/Icons'
 const HTML = icons.html;
 const CSS = icons.css;
 const JS = icons.js;
-const  React  =icons.reactjs;
+const  React  =icons.reactjs; 
 const  MUI  =icons.mui;
 const  Node  =icons.nodejs;
 const MongoDb = icons.mongoose;
 const Wordpress = icons.wordpress;
+const Tailwind = icons.tailwind;
+const Redux = icons.redux;
+const Git = icons.git;
 
-
-export const logos = [HTML, CSS,JS,React,MUI,Node,MongoDb,Wordpress];
+export const logos = [HTML, CSS,JS,React,MUI,Tailwind,Redux,Git,Node,MongoDb,Wordpress];
 
 export const IconsMarquee = () => {
   return (

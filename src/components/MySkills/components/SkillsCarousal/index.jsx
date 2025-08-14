@@ -14,11 +14,25 @@ import 'swiper/css/navigation';
 
 // Swiper modules
 import { FreeMode, Pagination, Navigation } from 'swiper/modules';
+import { icons } from '../../../../utilities/icons/Icons';
 
 export function SkillsCarousal() {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   const percentage = '80'
+  const skills = [
+  { name: "HTML", icon: icons.html, percentage: 90 },
+  { name: "CSS", icon: icons.css, percentage: 85 },
+  { name: "Tailwind CSS", icon: icons.tailwind, percentage: 85 },
+  { name: "JavaScript", icon: icons.js, percentage: 80 },
+  { name: "React", icon: icons.reactjs, percentage: 80 },
+  { name: "MUI", icon: icons.mui, percentage: 75 },
+  { name: "Redux", icon: icons.redux, percentage: 75 },
+  { name: "WordPress", icon: icons.wordpress, percentage: 80 },
+  { name: "Node.js", icon: icons.nodejs, percentage: 50 },
+  { name: "MongoDB", icon: icons.mongoose, percentage: 50 },
+];
+
 
   return (
     <div className="relative">
@@ -66,19 +80,22 @@ export function SkillsCarousal() {
           swiper.navigation.update();
         }}
       >
-        {[...Array(9)].map((_, i) => (
-          <SwiperSlide key={i} className='inline '>
+        {/* {[...Array(9)].map((_, i) => ( */}
+
+        {
+          skills.map((skill,i)=>(
+<SwiperSlide key={i} className='inline '>
              <div className='flex flex-col items-center space-y-5'>
 
-             <FaGithub className='text-primary text-3xl'/>
+             <skill.icon className='text-primary text-3xl'/>
              <div >
                 <div>
  <div 
 //  style={{ width: 200, height: 200 }} 
  className=' '>
     <CircularProgressbar
-      value={percentage}
-      text={`${percentage}%`}
+      value={skill.percentage}
+      text={`${skill.percentage}%`}
       strokeWidth={2} 
       styles={{
         path: {
@@ -93,10 +110,13 @@ export function SkillsCarousal() {
   </div>
                 </div>
              </div>
-           <div className='text-white font-medium'>HTML</div>
+           <div className='text-white font-medium'>{skills.nam}</div>
             </div>
         </SwiperSlide>
-        ))}
+          ))
+        }
+          
+        {/* ))} */}
       </Swiper>
     </div>
   );
