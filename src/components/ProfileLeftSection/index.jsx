@@ -4,7 +4,7 @@ import {SecondaryBtn} from '../generalComponents'
 function ProfileLeftSection(){
     const GitHubIcon = icons.github;
     const LinkedinIcon = icons.linkedin;
-    const DownlaodIcon = icons.download;
+    const DownlaodIcon = icons.download; 
 
 return(
 <div className="w-full">

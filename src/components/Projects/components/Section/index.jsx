@@ -10,7 +10,7 @@ function Section() {
            <div className="pt-5">
            <div className="h-60 w-full  md:w-2/3 rounded-3xl overflow-hidden relative group cursor-pointer" >
                 <img src={blogImg} alt=""  className="h-full w-full  opacity-5 group-hover:opacity-50 transition-opacity duration-300"/>
-                  <div className="absolute z-50  top-0 w-full h-full md:px-10 py-10  ">
+                  <div className="absolute z-10  top-0 w-full h-full md:px-10 py-10  ">
 <h6 className="text-white text-2xl font-semibold ">Blog Portal</h6>
 <span className="text-white">Frontend Development.</span>
 <div>

@@ -30,7 +30,6 @@ function DesktopNav(){
         // Trigger only when the top of the element hits the top of the viewport
         if (entry.isIntersecting) {
           setActiveId(entry.target.id);
-          console.log(entry.target.id)
         }
       });
     },
@@ -50,42 +49,55 @@ rootMargin: "0px 0px -90% 0px" //early trigger
   return () => observer.disconnect();
 }, []);
 
+const handleScrollToActiveComponent = (id) => {
+  setActiveId(id);
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({
+      behavior: "smooth", 
+      block: "start"       
+    });
+  }
+};
+
+
 
     return(
     <div className='inline-block w-fit h-fit border border-night-black rounded-full p-2  '>
 
    <div className='flex flex-col  gap-3'>
-    <div className='text-white hover:text-secondary hover:bg-primaryDark p-1  rounded-full cursor-pointer ' >
-  <button type='button' className='text-xl p-2'>
+    <div className={` hover:text-secondary  hover:bg-primaryDark  p-1  rounded-full cursor-pointer  ${activeId === 'home' ? 'bg-primaryDark text-secondary' :'text-white' } `} onClick={() => handleScrollToActiveComponent('home')}
+ >
+  <button type='button' className='text-xl p-2' >
 
    <Home />
   </button> 
     </div>
-    <div className='text-white hover:text-secondary hover:bg-primaryDark p-1  rounded-full cursor-pointer '>
+    <div className={` hover:text-secondary hover:bg-primaryDark p-1  rounded-full cursor-pointer  ${activeId === 'about' ? 'bg-primaryDark text-secondary' :'text-white' } `} onClick={() => handleScrollToActiveComponent('about')}>
   <button type='button' className='text-xl p-2'>
 
    <User />
   </button> 
     </div>
-    <div className='text-white hover:text-secondary hover:bg-primaryDark p-1  rounded-full cursor-pointer '>
+    <div className={` hover:text-secondary hover:bg-primaryDark p-1  rounded-full cursor-pointer  ${activeId === 'skills' ? 'bg-primaryDark text-secondary' :'text-white' }  `} onClick={() => handleScrollToActiveComponent('skills')}>
   <button type='button' className='text-xl p-2'>
 
    <Skills />
   </button>
     </div>
-    <div className='text-white hover:text-secondary hover:bg-primaryDark p-1  rounded-full cursor-pointer '>
+    <div className={` hover:text-secondary hover:bg-primaryDark p-1  rounded-full cursor-pointer   ${activeId === 'resume' ? 'bg-primaryDark text-secondary' :'text-white' } `} onClick={() => handleScrollToActiveComponent('resume')}>
   <button type='button' className='text-xl p-2'>
 
    <Resume />
   </button>
     </div>
-    <div className='text-white hover:text-secondary hover:bg-primaryDark p-1  rounded-full cursor-pointer '>
+    <div className={` hover:text-secondary hover:bg-primaryDark p-1  rounded-full cursor-pointer  ${activeId === 'projects' ? 'bg-primaryDark text-secondary' :'text-white' } `} onClick={() => handleScrollToActiveComponent('projects')}>
   <button type='button' className='text-xl p-2'>
 
    <Project />
   </button>
     </div>
-    <div className='text-white hover:text-secondary hover:bg-primaryDark p-1  rounded-full cursor-pointer '>
+    <div className={` hover:text-secondary hover:bg-primaryDark p-1  rounded-full cursor-pointer  ${activeId === 'contact' ? 'bg-primaryDark text-secondary' :'text-white' } `}  onClick={() => handleScrollToActiveComponent('contact')}>
   <button type='button' className='text-xl p-2'>
 
    <Mail />
