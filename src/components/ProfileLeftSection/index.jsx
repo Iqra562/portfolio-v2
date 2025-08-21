@@ -1,7 +1,7 @@
 import {icons} from '../../utilities/icons/Icons'
 import {SecondaryBtn} from '../generalComponents'
 import { TypewriterEffect } from './components/TypewriterEffect';
-import cv from '../../assets/docs/Resume-Iqra.pdf'
+// import cv from '../../assets/docs/Resume-Iqra.pdf'
 import me from '../../assets/images/me.jpeg'
 
 function ProfileLeftSection(){
@@ -61,7 +61,7 @@ return(
     </div>
     <div className='py-6'>
 
-<a href={cv} download='Resume-Iqra'>
+<a href='/Resume-Iqra.pdf' download='Resume-Iqra'>
             
         <SecondaryBtn className='w-full' text="Resume" iconPosition='right' customIcon={<DownlaodIcon className='text-white text-xl animate-bounce ' /> }/>
         </a>
