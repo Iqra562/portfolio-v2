@@ -2,7 +2,7 @@ import {icons} from '../../utilities/icons/Icons'
 import {SecondaryBtn} from '../generalComponents'
 import { TypewriterEffect } from './components/TypewriterEffect';
 // import cv from '../../assets/docs/Resume-Iqra.pdf'
-import me from '../../assets/images/me.jpeg'
+import me from '../../assets/images/me.jpg'
 
 function ProfileLeftSection(){
     const GitHubIcon = icons.github;
@@ -25,7 +25,7 @@ return(
     <div className="w-[125px] h-[125px] rounded-full border-8 border-night-black overflow-hidden ">
          <img src={me} alt="" className='w-full'   style={{
               width: "100%",
-              height: "100%",
+               height: "100%",
               objectFit: "cover", 
               objectPosition: "center center",
             //   borderRadius: "50%",

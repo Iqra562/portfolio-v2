@@ -23,6 +23,7 @@ export const SkillsComponent = () => {
     {name:'react js'},
     {name:'redux'},
     {name:'Node JS'},
+    {name:'MongoDB'},
     {name:'Wordpress'},
     {name:'API Integration'},
   ]

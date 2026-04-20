@@ -5,7 +5,7 @@ function TypewriterEffect() {
     <div className="text-secondary font-bold">
       <Typewriter
         options={{
-          strings: ['Frontend Developer', 'React Developer'],
+          strings: ['MERN Stack Developer','Frontend Developer', 'React Developer','Node JS Developer'],
           autoStart: true,
           loop: true,
         }}
