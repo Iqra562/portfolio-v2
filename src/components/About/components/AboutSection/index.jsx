@@ -8,7 +8,7 @@ function AboutSection() {
       <Heading preFix='About ' postFix='Me'/>
            
             <p className="text-primary text-base">
-                A passionate frontend developer with expertise in React, JavaScript, and modern web development, who loves transforming ideas into interactive, pixel-perfect experiences that users love. Dedicated to building responsive, accessible, and high-performance applications through clean code and thoughtful UI/UX design.    
+                A passionate MERN developer with expertise in React, JavaScript,Node and modern web development, who loves transforming ideas into interactive, pixel-perfect experiences that users love. Dedicated to building responsive, accessible, and high-performance applications through clean code and thoughtful UI/UX design.    
             </p>
              <div>
                 <SkillsComponent/>
