@@ -18,14 +18,16 @@ export const SkillsComponent = () => {
     {name:'HTML'},
     {name:'CSS'},
     {name:'tailwind CSS'},
-    {name:'Material UI'},
     {name:'javascript'},
     {name:'react js'},
+    {name:'Material UI'},
     {name:'redux'},
     {name:'Node JS'},
     {name:'MongoDB'},
     {name:'Wordpress'},
     {name:'API Integration'},
+    {name:'Next JS'},
+    {name:'Typescript'},
   ]
   return (
     <div className='flex gap-x-4 gap-y-8 flex-wrap'>

@@ -31,6 +31,8 @@ export function SkillsCarousal() {
   { name: "WordPress", icon: icons.wordpress, percentage: 80 },
   { name: "Node.js", icon: icons.nodejs, percentage: 50 },
   { name: "MongoDB", icon: icons.mongoose, percentage: 50 },
+  { name: "Next JS", icon: icons.nextjs, percentage: 50 },
+  { name: "Typescript", icon: icons.typescript, percentage: 20 },
 ];
 
 

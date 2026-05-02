@@ -15,7 +15,7 @@ function Section() {
              <div className="flex flex-col md:flex-row gap-y-4">
                 <div className=" md:w-[30%]   flex items-center space-x-2 md:space-x-0  md:block">
                   <h6 className="text-white text-lg">Apptalyst</h6>
-                  <span className="text-primary">April 2025 - Present</span>
+                  <span className="text-primary">April 2025 - April 2026</span>
                 </div>
                 <div className="relative  border-l-[1px] border-night-black  pb-4 md:pb-8  md:w-[70%]" >
                    <span className="bg-primary/20 absolute -left-[6.5px] md:-left-[13px]  -top-[3.5px] md:-top-[10px] h-3 md:h-[25px] w-3 md:w-[25px] rounded-full hidden md:flex items-center justify-center  ">
@@ -54,8 +54,8 @@ function Section() {
              </div>
                <div className="flex flex-col gap-y-4 md:flex-row">
                 <div className=" md:w-[30%]   flex flex-col    md:block">
-                  <h6 className="text-white text-lg">Government Degree Girls College</h6>
-                  <span className="text-primary">2026-completed</span>
+                  <h6 className="text-white text-lg">Virtual Uni</h6>
+                  <span className="text-primary">2026-Continued</span>
                 </div>
                 <div className="relative  border-l-[1px] border-night-black  pb-4 md:pb-8  " >
                    <span className="bg-primary/20 absolute -left-[6.5px] md:-left-[13px]  -top-[3.5px] md:-top-[10px] h-3 md:h-[25px] w-3 md:w-[25px] rounded-full hidden md:flex items-center justify-center  ">
@@ -63,7 +63,7 @@ function Section() {
 </span>
 <div className=" pl-2 md:pl-8  ">
 
-                  <h6 className="text-2xl text-white font-semibold  -mt-1">Intermediate</h6>
+                  <h6 className="text-2xl text-white font-semibold  -mt-1">Graduation</h6>
                   <p className="text-primary">Computer Science</p>
 </div>
                 </div>

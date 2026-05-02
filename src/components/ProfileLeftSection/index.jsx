@@ -2,7 +2,7 @@ import {icons} from '../../utilities/icons/Icons'
 import {SecondaryBtn} from '../generalComponents'
 import { TypewriterEffect } from './components/TypewriterEffect';
 // import cv from '../../assets/docs/Resume-Iqra.pdf'
-import me from '../../assets/images/me.jpg'
+import me from '../../assets/images/me.jpeg'
 
 function ProfileLeftSection(){
     const GitHubIcon = icons.github;
@@ -23,7 +23,7 @@ return(
     <div className="flex flex-col justify-center items-center ">
 
     <div className="w-[125px] h-[125px] rounded-full border-8 border-night-black overflow-hidden ">
-         <img src={me} alt="" className='w-full'   style={{
+         <img src={me} alt="" className='w-full object-fill'   style={{
               width: "100%",
                height: "100%",
               objectFit: "cover", 
@@ -61,7 +61,7 @@ return(
     </div>
     <div className='py-6'>
 
-<a href='/Resume-Iqra.pdf' download='Resume-Iqra'>
+<a href='/IQRA_FullstackDeveloper.pdf' download='IQRA_FullstackDeveloper'>
             
         <SecondaryBtn className='w-full' text="Resume" iconPosition='right' customIcon={<DownlaodIcon className='text-white text-xl animate-bounce ' /> }/>
         </a>

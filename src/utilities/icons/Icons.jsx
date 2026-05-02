@@ -21,6 +21,8 @@ import { LuMail } from "react-icons/lu";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiRedux } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
 
 
 export const icons = {
@@ -46,5 +48,8 @@ export const icons = {
    resume:SiReaddotcv,
    project :FaDiagramProject,
    mail:LuMail,
-   git:FaGitAlt
+   git:FaGitAlt,
+   nextjs:SiNextdotjs,
+   typescript:BiLogoTypescript 
+
 };

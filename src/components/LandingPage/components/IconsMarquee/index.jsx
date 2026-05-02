@@ -12,8 +12,10 @@ const Wordpress = icons.wordpress;
 const Tailwind = icons.tailwind;
 const Redux = icons.redux;
 const Git = icons.git;
+const NextJS = icons.nextjs;
+const Typescript = icons.typescript
 
-export const logos = [HTML, CSS,JS,React,MUI,Tailwind,Redux,Git,Node,MongoDb,Wordpress];
+export const logos = [HTML, CSS,JS,React,MUI,Tailwind,Redux,Git,Node,MongoDb,Wordpress,NextJS,Typescript];
 
 export const IconsMarquee = () => {
   return (
